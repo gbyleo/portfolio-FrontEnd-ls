@@ -60,6 +60,7 @@ div {
         left: 3%;
         top: 700px;
     }
+}
 
    
     /*etiqueta nombre
@@ -68,49 +69,3 @@ div {
     margin-top: 30%;
     /*margin-left: 10px;*/
  
-}
-
-
-
-/* para cuando como maximo es 575 px, o sea mas chico que 576*/
-@media (max-width: 575px) {
-    #fotoperfil {
-        position: absolute;
-        width: 100%;
-        border-radius: 100%;
-        left: 33%;
-        top: 600px;
-        padding: 20px;
-    }
-    
-    /*etiqueta nombre*/
-    #nombre {
-    font-weight: bold;
-    margin-top: 10px;
-    /*margin-left: 10px;*/
-
-}
-}
-
-
-/* para cuando como minimo es 577 px, o sea mas grande*/
-@media (min-width: 577px) {
-    #fotoperfil {
-        position: absolute;
-        width: 10%;
-        border-radius: 10%;
-        left: 33%;
-        top: 100px;
-        padding: 100px;
-    }
-    
-    /*etiqueta nombre*/
-    #nombre {
-    font-weight: bold;
-    margin-top: 10px;
-    /*margin-left: 10px;*/
-
-}
-}
-
-
