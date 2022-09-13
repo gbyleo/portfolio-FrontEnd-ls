@@ -52,6 +52,9 @@ div {
 
 /*para cuando es minimanete 576 px*/
 
+
+
+
 @media (min-width: 576px) {
     #fotoperfil {
         position:absolute;
@@ -61,6 +64,32 @@ div {
         top: 700px;
     }
 }
+
+@media (max-width: 575px) {
+    #fotoperfil {
+        position:absolute;
+        width: 15%;
+        border-radius: 100%;
+        left: 3%;
+        top: 900px;
+    }
+}
+
+@media (max-width: 360px) {
+    #fotoperfil {
+        position:absolute;
+        width: 15%;
+        border-radius: 100%;
+        left: 3%;
+        top: 900px;
+    }
+}
+
+
+h2,h3{
+    display: inline;
+}
+
 
    
     /*etiqueta nombre
