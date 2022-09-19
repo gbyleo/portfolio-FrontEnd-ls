@@ -3,6 +3,17 @@ div {
 }
 
 
+.mat-card{
+    border-radius: 32px;
+    margin: 10px 10 px;
+    padding: 20px;
+    border-color: rgb(180, 59, 50);
+}
+
+.mat-card#first-card{
+    padding: 0;
+}
+
 #logoAP {
     width: 300px;
 }
