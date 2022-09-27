@@ -1,0 +1,61 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "basic-auth": "^2.0.1",
+    "async": "^2.6.4",
+    "ansi-styles": "^4.3.0",
+    "call-bind": "^1.0.2",
+    "corser": "^2.0.1",
+    "chalk": "^4.1.2",
+    "color-name": "^1.1.4",
+    "color-convert": "^2.0.1",
+    "debug": "^3.2.7",
+    "follow-redirects": "^1.15.2",
+    "eventemitter3": "^4.0.7",
+    "get-intrinsic": "^1.1.3",
+    "has": "^1.0.3",
+    "function-bind": "^1.1.1",
+    "http-proxy": "^1.18.1",
+    "html-encoding-sniffer": "^3.0.0",
+    "has-symbols": "^1.0.3",
+    "he": "^1.2.0",
+    "has-flag": "^4.0.0",
+    "iconv-lite": "^0.6.3",
+    "http-server": "^14.1.1",
+    "mime": "^1.6.0",
+    "lodash": "^4.17.21",
+    "mkdirp": "^0.5.6",
+    "ms": "^2.1.3",
+    "minimist": "^1.2.6",
+    "opener": "^1.5.2",
+    "object-inspect": "^1.12.2",
+    "portfinder": "^1.0.32",
+    "qs": "^6.11.0",
+    "requires-port": "^1.0.0",
+    "safe-buffer": "^5.1.2",
+    "safer-buffer": "^2.1.2",
+    "side-channel": "^1.0.4",
+    "secure-compare": "^3.0.1",
+    "supports-color": "^7.2.0",
+    "union": "^0.5.0",
+    "url-join": "^4.0.1",
+    "whatwg-encoding": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "http-server -p 8436"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbyleo/portfolio-FrontEnd-ls.git"
+  },
+  "author": "lgs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gbyleo/portfolio-FrontEnd-ls/issues"
+  },
+  "homepage": "https://github.com/gbyleo/portfolio-FrontEnd-ls#readme"
+}
