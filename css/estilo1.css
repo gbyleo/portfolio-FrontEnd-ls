@@ -7,6 +7,11 @@ div {
 }
 
 
+#div_banner{
+    /*display:flex;*/
+
+}
+
 .mat-card {
     border-radius: 32px;
     padding: 10px;
@@ -74,18 +79,19 @@ div {
     margin-top: -100px;
     width: 100%;
     scale: 80%;
-    margin-right: 150px;
+    /*margin-right: 150px;*/
     background-color: blue;
 
 }
 
 
-#social img {
+#div_social img {
     width: 5px;
     float: right;
     margin-top: 25px;
-    width: 120px;
+    width: 120px;*/
     background-color: rgb(161, 228, 228);
+    display:flex;
 }
 
 #banner {
