@@ -1,16 +1,74 @@
 body{
-    background-color: rgb(212, 248, 248);
+    background-color: rgb(52, 218, 218);
 }
 
 div {
-    background-color: rgb(161, 228, 228);
+    background-color:  rgb(52, 218, 218);;
 }
 
+
+header{
+    display: flex;
+    background-color:  rgb(52, 218, 218);;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logoAP{
+height: 75px;
+}
+
+
+nav{
+    background-color:   rgb(52, 218, 218);;
+    display: flex;
+    align-items: center;
+}
+
+
+.social img{
+display: flex;
+background-color:   rgb(52, 218, 218);;
+height: 50px;
+}
+
+.social{
+    background-color:  rgb(52, 218, 218);;
+}
+
+
+#div_social{
+    background-color:  rgb(52, 218, 218);;
+}
+
+
+#banner{
+    height: 200px;
+    width: 100%;
+    
+}
 
 #div_banner{
-    /*display:flex;*/
-
+    width: 100%;
 }
+
+
+
+
+
+/*
+#div_btnlogin{
+    margin-right: 30px;
+    padding-right: 10px;
+}
+*/
+/*
+#btnlog{
+    margin-right: 1px;
+}*/
+
+
+
 
 .mat-card {
     border-radius: 32px;
@@ -31,8 +89,9 @@ div {
     margin-left: 10px;
     margin-right: 10px;
 }
-
+/*
 /*id de acerca de mi*/
+/*
 #card_adm {
     border-radius: 32px;
     padding: 10px;
@@ -44,7 +103,7 @@ div {
 }
 
 /*id de experiencia educacion y habilidades*/
-#card_ees{
+/*#card_ees{
     border-radius: 32px;
     padding: 10px;
     background-color: rgb(161, 228, 228);
@@ -80,17 +139,15 @@ div {
     width: 100%;
     scale: 80%;
     /*margin-right: 150px;*/
-    background-color: blue;
+ 
 
-}
-
-
+/*
 #div_social img {
     width: 5px;
     float: right;
     margin-top: 25px;
     width: 120px;*/
-    background-color: rgb(161, 228, 228);
+  /*  background-color: rgb(161, 228, 228);
     display:flex;
 }
 
@@ -157,12 +214,12 @@ div {
 /*-************************************/
 
 
-*/
 
 
 
 
 
+/*
 
 @media (min-width: 576px) {
     #fotoperfil {
@@ -206,4 +263,4 @@ h3 {
     #nombre {
     font-weight: bold;
     margin-top: 30%;
-    /*margin-left: 10px;*/
+    /*margin-left: 10px;*//*
