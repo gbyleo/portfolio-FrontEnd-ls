@@ -38,14 +38,22 @@ nav{
     display:flex;
     align-items: center;
     justify-content:space-between;
-}
-
-
-#btnacm{
     text-align: right;
     padding-left: 10px;
     margin-left: 10px;
 }
+
+
+.IconoTitulos{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    text-align: right;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+
+
 
 .social img{
 display: flex;
