@@ -185,5 +185,32 @@ margin-left: 0px;
 
 /*-************************************/
 
+/*margen ul/li para viñeta de listas en experiencia laboral educacion skils etc*/
 
+#adm_parr{
+   
+    background-color:yellowgreen;
+    text-align: left;
+    margin-left: 50px;
+}
+
+h1{
+    text-align: center;
+}
+
+li{
+    list-style-type:square;
+}
+ul li h2{
+    margin-left: -20px;
+    text-align: left;
+    
+   
+}
+
+ul li h3{
+    margin-left: 0px;
+    text-align: left;
+   
+}
 
