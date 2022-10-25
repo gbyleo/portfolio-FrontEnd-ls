@@ -1,3 +1,4 @@
+/* You can add global styles to this file, and also import other style files */
 body{
     background-color: rgb(52, 218, 218);
 }
@@ -148,7 +149,7 @@ margin-left: 0px;
 
 /*estilo de la foto de perfil*/
 
-/*para cuando es minimanete 576px*/
+/*para cuando es minimanete 576 px*/
 
 
 @media (min-width: 576px) {
@@ -189,13 +190,13 @@ margin-left: 0px;
 
 #adm_parr{
    
-   
-    text-align: justify;
-   
+    background-color:yellowgreen;
+    text-align: left;
+    margin-left: 50px;
 }
 
 h1{
-    text-align: left;
+    text-align: center;
 }
 
 li{
@@ -209,11 +210,8 @@ ul li h2{
 }
 
 ul li h3{
-    margin-left: -20px;
+    margin-left: 0px;
     text-align: left;
    
 }
 
-#fotocine{
-    width: 80%;
-}
