@@ -189,13 +189,13 @@ margin-left: 0px;
 
 #adm_parr{
    
-    background-color:yellowgreen;
-    text-align: left;
-    margin-left: 50px;
+   
+    text-align: justify;
+   
 }
 
 h1{
-    text-align: center;
+    text-align: left;
 }
 
 li{
@@ -209,8 +209,11 @@ ul li h2{
 }
 
 ul li h3{
-    margin-left: 0px;
+    margin-left: -20px;
     text-align: left;
    
 }
 
+#fotocine{
+    width: 80%;
+}
