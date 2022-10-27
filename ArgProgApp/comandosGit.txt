@@ -1,0 +1,106 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+Prueba la nueva tecnología PowerShell multiplataforma https://aka.ms/pscore6
+
+PS C:\Users\LS892\Documents\GitHub\portfolio-FrontEnd-ls> git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+The most similar command is
+        add
+PS C:\Users\LS892\Documents\GitHub\portfolio-FrontEnd-ls> git add .
+PS C:\Users\LS892\Documents\GitHub\portfolio-FrontEnd-ls> git commit -a -m
+error: switch `m' requires a value
+PS C:\Users\LS892\Documents\GitHub\portfolio-FrontEnd-ls> git commit -a -m "25-10"   
+On branch Principal-ARG-PROG
+Your branch is up to date with 'origin/0210'.
+Your branch is up to date with 'origin/0210'.
+
+nothing to commit, working tree clean
+PS C:\Users\LS892\Documents\GitHub\portfolio-FrontEnd-ls> git branch -a
+  0210
+* Principal-ARG-PROG
+  main
+  remotes/origin/0210
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+PS C:\Users\LS892\Documents\GitHub\portfolio-FrontEnd-ls> git checkout main
+Switched to branch 'main'
+Your branch is up to date with 'origin/main'.
+PS C:\Users\LS892\Documents\GitHub\portfolio-FrontEnd-ls> git branch b
+PS C:\Users\LS892\Documents\GitHub\portfolio-FrontEnd-ls> git branch -b
+error: unknown switch `b'
+usage: git branch [<options>] [-r | -a] [--merged] [--no-merged]
+   or: git branch [<options>] [-f] [--recurse-submodules] <branch-name> [<start-point>]
+   or: git branch [<options>] [-l] [<pattern>...]
+   or: git branch [<options>] [-r] (-d | -D) <branch-name>...
+   or: git branch [<options>] (-m | -M) [<old-branch>] <new-branch>
+   or: git branch [<options>] (-c | -C) [<old-branch>] <new-branch>
+   or: git branch [<options>] [-r | -a] [--points-at]
+   or: git branch [<options>] [-r | -a] [--format]
+
+Generic options
+    -v, --verbose         show hash and subject, give twice for upstream branch
+    -q, --quiet           suppress informational messages
+    -t, --track[=(direct|inherit)]
+                          set branch tracking configuration
+    -u, --set-upstream-to <upstream>
+                          change the upstream info
+    --unset-upstream      unset the upstream info
+    --color[=<when>]      use colored output
+    -r, --remotes         act on remote-tracking branches
+    --contains <commit>   print only branches that contain the commit
+    --no-contains <commit>
+                          print only branches that don't contain the commit
+    --abbrev[=<n>]        use <n> digits to display object names
+
+Specific git-branch actions:
+    -a, --all             list both remote-tracking and local branches
+    -d, --delete          delete fully merged branch
+    -D                    delete branch (even if not merged)
+    -m, --move            move/rename a branch and its reflog
+    -M                    move/rename a branch, even if target exists
+    -c, --copy            copy a branch and its reflog
+    -l, --list            list branch names
+    --show-current        show current branch name
+    --create-reflog       create the branch's reflog
+    --edit-description    edit the description for the branch
+    -f, --force           force creation, move/rename, deletion
+    --merged <commit>     print only branches that are merged
+    --no-merged <commit>  print only branches that are not merged
+    --sort <key>          field name to sort on
+    -i, --ignore-case     sorting and filtering are case insensitive
+    --format <format>     format to use for the output
+
+PS C:\Users\LS892\Documents\GitHub\portfolio-FrontEnd-ls> git branch -a
+  0210
+  b
+  remotes/origin/0210
+  remotes/origin/HEAD -> origin/main
+PS C:\Users\LS892\Documents\GitHub\portfolio-FrontEnd-ls> git merge Principal-ARG-PROG
+Already up to date.
+PS C:\Users\LS892\Documents\GitHub\portfolio-FrontEnd-ls> git merge Principal-ARG-PROG 
+Already up to date.
+PS C:\Users\LS892\Documents\GitHub\portfolio-FrontEnd-ls> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+PS C:\Users\LS892\Documents\GitHub\portfolio-FrontEnd-ls> git checkout 
+Your branch is up to date with 'origin/main'.
+PS C:\Users\LS892\Documents\GitHub\portfolio-FrontEnd-ls> git checkout  Principal-ARG-PROG 
+Switched to branch 'Principal-ARG-PROG'
+Your branch is up to date with 'origin/0210'.
+PS C:\Users\LS892\Documents\GitHub\portfolio-FrontEnd-ls> git status
+On branch Principal-ARG-PROG
+Your branch is up to date with 'origin/0210'.
+
+nothing to commit, working tree clean
+PS C:\Users\LS892\Documents\GitHub\portfolio-FrontEnd-ls> 
+ *  Historial restaurado 
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Prueba la nueva tecnología PowerShell multiplataforma https://aka.ms/pscore6
+
+PS C:\Users\LS892\Documents\GitHub\portfolio-FrontEnd-ls> tsc --init      
