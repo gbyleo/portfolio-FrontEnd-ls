@@ -1,17 +1,18 @@
 <div class="personas">
   <h2>Esta es nuestra lista de personas</h2>
+  <h3>**{{title}}**</h3>
+  <h6>Nueva personas</h6>
 
   <div *ngFor="let persona of personas">
-    
+    <app-persona [persona]="persona"></app-persona>
+
    <!--  <app-persona>[eldelpadre]=""</app-persona> -->
-    
-    
-    
- 
-    <h4>Nueva personas</h4>
+
+    <!-- <h4>Nueva personas</h4>
     <p>Nombre: {{persona.nombre}}</p>
     <p>Apellido: {{persona.apellido}}</p>
     <p>Edad: {{persona.edad}}</p>
-    
+    -->
+
   </div>
 </div>

@@ -9,6 +9,7 @@ import { Persona } from 'src/app/models/Persona';
 })
 
 export class PersonasComponent implements OnInit {
+  title = 'mi-primera-app';
 
   /*atributos*/
   personas: Persona[ ]=[ ]
